@@ -9,7 +9,8 @@ const generateTokenAndSetCookie=(userId,res)=>{
     res.cookie("jwt",token,{
         httpOnly:true,                       //this cookie will not be accessible by browser
         maxAge:15*24*60*60*1000,                 //15 days
-        sameSite:"strict",                           //CSRF -- more secure
+        secure: true,       // ✅ required for HTTPS (Vercel)
+        sameSite: "none",   // ✅ must be "none" for cross-site cookies
 
     })
     return token;
