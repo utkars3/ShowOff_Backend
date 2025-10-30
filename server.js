@@ -13,7 +13,14 @@ dotenv.config()
 connectDB();
   
 const app=express();
-app.use(cors())
+// app.use(cors())
+app.use(cors({
+  origin: [
+    "https://show-off-frontend.vercel.app",
+    "http://localhost:3000",
+  ],
+  credentials: true, // ✅ allows cookies to be sent
+}));
 
 const PORT=process.env.PORT || 5001
 
