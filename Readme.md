@@ -2,6 +2,13 @@
 
 ShowOff is a modern minimalistic social media platform built using the MERN stack where users can create posts, share images, interact, follow others, like posts and comment in real-time. The goal is to provide a fast, clean and elegant space for people to showcase their ideas, achievements and creativity.
 
+##Images and Demo
+Demo - https://youtu.be/zh-a5Devw3M
+<img width="1440" height="811" alt="Screenshot 2025-11-01 at 7 04 14 PM" src="https://github.com/user-attachments/assets/0435a9fb-b3c8-4bea-a847-a1ac29c8904c" />
+<img width="1440" height="811" alt="Screenshot 2025-11-01 at 7 05 09 PM" src="https://github.com/user-attachments/assets/cc38936f-dbda-4649-a02a-439693668ff8" />
+<img width="1440" height="811" alt="Screenshot 2025-11-01 at 7 04 53 PM" src="https://github.com/user-attachments/assets/83e8f175-2f3a-49b6-a47c-cf6e024f36ae" />
+
+
 ## 🚀 Features
 
 - User Authentication (JWT + HTTPOnly Cookies)
@@ -21,49 +28,6 @@ ShowOff is a modern minimalistic social media platform built using the MERN stac
 | Backend | Node.js, Express.js, MongoDB |
 | Storage | Cloudinary |
 | Deployment | Vercel (Frontend + Backend) |
-
-## 📂 Project Structure
-
-```
-ShowOff/
-├── frontend/        # React (Vite)
-└── backend/         # Node + Express
-```
-
-## ⚙️ Setup Instructions
-
-### Clone Repository
-
-```bash
-git clone <YOUR_REPO_URL>
-cd ShowOff
-```
-
-### Backend Setup
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-Create `.env` inside backend:
-
-```
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
-CLOUDINARY_CLOUD_NAME=
-```
-
-### Frontend Setup
-
-```bash
-cd ../frontend
-npm install
-npm run dev
-```
 
 ## 🌍 Deployment Links
 
