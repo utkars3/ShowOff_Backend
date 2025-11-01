@@ -1,5 +1,28 @@
-MONGO_URI=mongodb+srv://utkarshkesharwani3:Utkarsh_8009@cluster0.tm5sk.mongodb.net/?appName=Cluster0
-JWT_SECRET=Utkarsh
+ShowOff - Social Media Platform
+
+ShowOff is a modern minimalistic social media platform built using the MERN stack where users can create posts, share images, interact, follow others, like posts and comment in real-time. The goal is to provide a fast, clean and elegant space for people to showcase their ideas, achievements and creativity.
+
+🚀 Features
+
+User Authentication (JWT + HTTPOnly Cookies)
+
+Create / Delete Posts
+
+Like & Comment support
+
+Follow / Unfollow system
+
+User Profile Page
+
+Image Upload (Cloudinary)
+
+Responsive UI (Mobile + Desktop)
+
+Secured API Routes
+
+Recoil State Management
+
+
 
 username - utkars1
 pass - 12345678
