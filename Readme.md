@@ -2,7 +2,7 @@
 
 ShowOff is a modern minimalistic social media platform built using the MERN stack where users can create posts, share images, interact, follow others, like posts and comment in real-time. The goal is to provide a fast, clean and elegant space for people to showcase their ideas, achievements and creativity.
 
-##Images and Demo
+## Images and Demo
 
 Demo - https://youtu.be/zh-a5Devw3M
 <img width="1440" height="811" alt="Screenshot 2025-11-01 at 7 04 14 PM" src="https://github.com/user-attachments/assets/0435a9fb-b3c8-4bea-a847-a1ac29c8904c" />
